@@ -22,3 +22,30 @@ body { /* Body Colour */
 .nav-link {
 	color: #5AB37F;
 }
+.carouselimage {
+    height: 500px;
+}
+.testimonialimage {
+    height: 350px;
+    width: 350px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.hometestimonial {
+    text-align: center;
+    
+}
+nav.navbar-dark {
+	background: rgba(76, 71, 74, 0.8) !important;
+}	
+.active-link {
+	color: #5AB37F !important;
+	font-weight: 600;
+}
+.social-media {
+	height: 25px;
+	width: 25px;
+}
+.break {
+	height: 40px;
+}
