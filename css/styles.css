@@ -4,6 +4,21 @@
 }
 .text {
 	text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #4C474A;
+}
+.header1-text {
+    text-align: center;
+    font-family: "Agency FB";
+    color: #4C474A;
+    font-size: 32px;
+}
+.header2-text {
+    text-align: center;
+    font-family: "Agency FB";
+    color: #4C474A;
+    font-size: 24px;
 }
 body { /* Body Colour */
 	background-color: #FFDF9F;
@@ -15,10 +30,7 @@ body { /* Body Colour */
 ::-moz-selection {
   background: #FFAA36; 
 } 
-.images {
-	text-align: center;
-	margin-bottom: 10px;
-}
+
 .nav-link {
 	color: #5AB37F;
 }
@@ -30,10 +42,6 @@ body { /* Body Colour */
     width: 350px;
     margin-right: 5px;
     margin-left: 5px;
-}
-.hometestimonial {
-    text-align: center;
-    
 }
 nav.navbar-dark {
 	background: rgba(76, 71, 74, 0.8) !important;
@@ -48,4 +56,38 @@ nav.navbar-dark {
 }
 .break {
 	height: 40px;
+}
+
+.btn-outline-primary {
+    color: #5AB37F;
+    border-color: #5AB37F;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-outline-secondary {
+    color: #FFAA36;
+    border-color: #FFAA36;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-outline-success {
+    color: #4C474A;
+    border-color: #4C474A;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-outline-primary:hover {
+    color: #ffffff;
+    border-color: #5AB37F;
+    background-color: #5AB37F;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-outline-secondary:hover {
+    color: #ffffff;
+    border-color: #FFAA36;
+    background-color: #FFAA36;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-outline-success:hover {
+    color: #ffffff;
+    border-color: #4C474A;
+    background-color: #4C474A;
+    font-family: 'Open Sans', sans-serif;
 }
