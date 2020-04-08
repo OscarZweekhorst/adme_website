@@ -20,6 +20,14 @@
     color: #4C474A;
     font-size: 24px;
 }
+
+.header3-text {
+    text-align: center;
+    font-family: "Agency FB";
+    color: #4C474A;
+	font-size: 14px;
+} 
+
 body { /* Body Colour */
 	background-color: #FFDF9F;
 }
