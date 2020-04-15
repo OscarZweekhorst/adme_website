@@ -141,17 +141,7 @@ button:hover {
   opacity:1;
 }
 
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
-}
 
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 100%;
-}
 
 /* Add padding to container elements */
 .container {
@@ -214,4 +204,13 @@ hr {
   .cancelbtn, .signupbtn {
     width: 100%;
   }
+}
+
+.signup {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.navbar-toggler-icon {
+    width: 100px !important;
 }

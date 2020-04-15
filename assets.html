@@ -10,7 +10,7 @@
 <!-- My styles -->
 <link rel="stylesheet" href="css/styles.css">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 <title>@me</title>
 </head>
 <body>
@@ -19,9 +19,76 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
+      <li class="nav-item active"> <a class="nav-link active-link" href="index.html">Home</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="vacancies.html">Vacancies</a> </li>
       <li class="nav-item"> <a class="nav-link" href="webshop.html">Webshop</a> </li>
       <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
+      
+      <!-- Button to open the modal -->
+      <li class="nav-item signup">
+        <button class="nav-link btn btn-outline-primary"  onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+      </li>
+      
+      <!-- The Modal (contains the Sign Up form) -->
+      <div id="id01" class="modal"> <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">x</span>
+        <form class="modal-content" action="/action_page.php">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-2">
+                <h1 class="header1-text">Sign Up</h1>
+              </div>
+              <div class="col-9 col-lg-8">
+                <p class="text">Please fill in this form to create an account and to be part of our @ME community.</p>
+              </div>
+              <div class="col-2"> <img class="class" src="./images/adme_logo.png" alt="Logo" height="50px"/> </div>
+              <div class="col-12">
+                <label for="name"><b>Name</b></label>
+              </div>
+              <div class="col-12">
+                <input type="text" placeholder="Enter Name" name="name" required>
+              </div>
+              <div class="col-12">
+                <label for="email"><b>Email</b></label>
+              </div>
+              <div class="col-12">
+                <input type="text" placeholder="Enter Email" name="email" required>
+              </div>
+                <div class="col-12">
+              <label for="psw"><b>Password</b></label>
+                     </div>
+                    <div class="col-12">
+              <input type="password" placeholder="Enter Password" name="psw" required>
+                         </div>
+                            
+                            <div class="col-12">
+              <label for="psw-repeat"><b>Repeat Password</b></label>
+                                 </div>
+                                <div class="col-12">
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                                    </div>
+                <div class="col-12">
+              <label>  
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
+                Remember me </label>
+                </div>
+                    <div class="col-12">
+              <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms and Privacy</a>.</p>
+                        </div>
+                
+              
+                  <div class="col-6">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="btn btn-outline-success">Cancel</button>
+                      </div>
+                  <div class="col-6">
+                <button type="submit" onclick="window.location.href = 'index.html';" class="btn btn-outline-primary">
+                Sign Up
+                </button>
+                  </div>
+              
+            </div>
+          </div>
+        </form>
+      </div>
     </ul>
   </div>
 </nav>
@@ -38,7 +105,7 @@
         The font used for headers is
         <h1 class="header1-text">'Abel' <br />
           Use class="header1-text" for large headers</h1>
-          <h2 class="header2-text">Use class="header2-text" for slightly smaller headers</h2>
+        <h2 class="header2-text">Use class="header2-text" for slightly smaller headers</h2>
         Use class="text" for normal text <br />
         the font used for normal text is 'Open Sans' <br />
         The Font Size for normal text is 16 pixels <br />
@@ -47,14 +114,14 @@
         The text colour used is: #4C474A <br />
       </article>
     </div>
-    <!-- 3 Colours of buttons we can use-->
+    <!-- 3 Colours of buttons we can use--> 
     <!-- First Button -->
-      <div class="col-12">
+    <div class="col-12">
       <button type="button" class="btn btn-outline-primary">Button Option 1</button>
-        <!-- Second Button -->
+      <!-- Second Button -->
       <button type="button" class="btn btn-outline-secondary">Button Option 2</button>
       <!-- Third Button -->
-        <button type="button" class="btn btn-outline-success">Button Option 3</button>
+      <button type="button" class="btn btn-outline-success">Button Option 3</button>
     </div>
     <!-- Buttons End --> 
     
@@ -154,36 +221,33 @@
             <input type="text" class="form-control" id="validationDefault05" placeholder="1234 AA" required>
           </div>
         </div>
-          <div class="form-row">
-        <div class="col-md-12 mb-3">
+        <div class="form-row">
+          <div class="col-md-12 mb-3">
             <label for="validationDefault09">Email</label>
             <input type="text" class="form-control" id="validationDefault09" required>
-            </div>  
-        </div> 
+          </div>
+        </div>
         <h1 class="header1-text">Credit Card</h1>
-        <div class="form-row">  
-        <div class="col-md-6 mb-3"> 
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
             <label for="validationDefault06">Credit Card Number</label>
             <input type="text" class="form-control" id="validationDefault06" placeholder="**** ***** **** ****" required>
-        </div>
-        <div class="col-md-3 mb-3"> 
+          </div>
+          <div class="col-md-3 mb-3">
             <label for="validationDefault07">CVV/CVC</label>
             <input type="text" class="form-control" id="validationDefault07" placeholder="***" required>
-        </div>
-        <div class="col-md-3 mb-3"> 
+          </div>
+          <div class="col-md-3 mb-3">
             <label for="validationDefault08">Expiry Date</label>
             <input type="text" class="form-control" id="validationDefault08" placeholder="MM/YY" required>
+          </div>
         </div>
-            </div>
-           
         <div class="form-group">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
             <label class="form-check-label" for="invalidCheck2"> Agree to terms and conditions </label>
           </div>
         </div>
-        
-            
         <button class="btn btn-outline-primary" type="submit">Submit</button>
       </form>
     </div>
