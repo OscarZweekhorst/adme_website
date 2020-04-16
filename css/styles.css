@@ -102,8 +102,9 @@ nav.navbar-dark {
 }
 
 
-
+/*--------------------------*/
 /* Sign up form */
+/*--------------------------*/
 li button {
 	float: right;
 }
@@ -124,24 +125,6 @@ input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
-
-/* Set a style for all buttons */
-button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-button:hover {
-  opacity:1;
-}
-
-
 
 /* Add padding to container elements */
 .container {
@@ -170,12 +153,6 @@ button:hover {
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
-/* Style the horizontal ruler */
-hr {
-  border: 1px solid #FFDF9F;
-  margin-bottom: 25px;
-}
-
 /* The Close Button (x) */
 .close {
   position: absolute;
@@ -192,13 +169,6 @@ hr {
   cursor: pointer;
 }
 
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
@@ -213,4 +183,62 @@ hr {
 }
 .navbar-toggler-icon {
     width: 100px !important;
+}
+
+
+/*--------------------------*/
+/* Side Bar for the Vacancies*/
+/*--------------------------*/
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  max-width: 300px;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  top: 75px;
+  left: 0;
+  background-color: #4C474A;
+  overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 50px 6px 50px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav p{
+  padding: 6px 50px 6px 50px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFAA36;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #FFAA36;
+}
+
+/* Style page content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* vacancy box */
+
+.vacancy {
+	border: dotted;
+	border-color: #FFAA36;
+	background-color: rgba(76, 71, 74, 0.8);
+	margin: 20px 250px;
 }
