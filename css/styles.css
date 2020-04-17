@@ -250,9 +250,6 @@ div.content {
 /* vacancy box */
 
 .vacancy {
-	border: solid;
-	border-color: black;
-	border-radius: 25px;
 	background-color: rgba(76, 71, 74, 0.8);
 	color: white;
 	margin-top: 20px;
