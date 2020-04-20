@@ -249,10 +249,19 @@
           </div>
         </div>
         <!-- Button trigger modal -->
-<button type="submit" class="btn btn-outline-primary" data-toggle="modal" data-target="#staticBackdrop">
-  Launch static backdrop modal
-</button>
-
+<button class="nav-link btn btn-outline-primary"  onclick="document.getElementById('id02').style.display='block'">Buy</button>
+ <div id="id02" class="modal-payment">
+       <div class="container">
+            <div class="row">
+                <div class="modal-content-payment">
+                <div class="col-12">Confirmation email sent.</div>
+                    <div class="break col-12"> </div>
+                <div class="col-12"><button class="btn btn-outline-primary" type="button" onclick="window.location.href = 'webshop.html';"> Close </button>
+                </div>
+                    </div>
+           </div>
+           </div>
+      </div>
 
       </form>
     </div>
@@ -277,23 +286,4 @@
 <script src="js/jquery-3.4.1.slim.min.js"></script> 
 <script src="js/bootstrap.bundle.min.js"></script>
 </body>
-    <!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Email Sent</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-outline-primary">Understood</button>
-      </div>
-    </div>
-  </div>
-</div>
 </html>

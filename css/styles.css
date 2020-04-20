@@ -256,3 +256,26 @@ div.content {
 	margin-top: 20px;
 	padding: 20px;
 }
+
+/* Modal content for payment*/
+.modal-content-payment {
+  background-color: #4C474A;
+    color: #5AB37F;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+    height: 110px;
+}
+/* The Modal for payment (background) */
+.modal-payment {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  padding-top: 50px;
+background-color: rgba(76, 71, 74, 0.8);
+}
