@@ -275,6 +275,14 @@ div.content {
 	margin-top: 20px;
 	padding: 20px;
 }
+h3{ 
+color: #5AB37F;
+text-underline-position: auto;
+}
+
+.info{ 
+color:#FFAA36 }
+
 
 /* Modal content for payment*/
 .modal-content-payment {
@@ -336,22 +344,12 @@ article {
 	background-blend-mode: color; 
 }
 
-.expert1{
+.expert1, .expert2{
 	font-style: italic;
 	padding-bottom: 5px;
 }
 
-.expert2 {
-	font-style: italic;
-	padding-bottom: 5px;
-}
-
-.expert3 {
-	font-style: italic;
-	padding-bottom: 7px;
-}
-
-.expert4 {
+.expert3, .expert4 {
 	font-style: italic;
 	padding-bottom: 7px;
 }
