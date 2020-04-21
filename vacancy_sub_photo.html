@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- My styles -->
+<link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet"> 
+    
+<title>@me</title>
+    <link rel="icon" href="./images/Adme_icon.ico">
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"> <a class="navbar-brand" href="index.html"><img class="class" src="./images/adme_logo.png" alt="Logo" height="50px"/></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
+	  <li class="nav-item active"> <a class="nav-link active-link" href="vacancies.html">Vacancies</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="webshop.html">Webshop</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
+
+        <li class="nav-item"> <a class="nav-link" href="design_justification.html">Design Justification</a> </li>
+
+   <!-- Button to open the modal -->
+      <li class="nav-item signup">
+        <button class="nav-link btn btn-outline-primary"  onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+      </li>
+      
+      <!-- The Modal (contains the Sign Up form) -->
+      <div id="id01" class="modal"> <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">x</span>
+        <form class="modal-content" action="/action_page.php">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-2">
+                <h1 class="header1-text">Sign Up</h1>
+              </div>
+              <div class="col-9 col-lg-8">
+                <p class="text">Please fill in this form to create an account and to be part of our @ME community.</p>
+              </div>
+              <div class="col-2"> <img class="class" src="./images/adme_logo.png" alt="Logo" height="50px"/> </div>
+              <div class="col-12">
+                <label for="name"><b>Name</b></label>
+              </div>
+              <div class="col-12">
+                <input type="text" placeholder="Enter Name" name="name" required>
+              </div>
+              <div class="col-12">
+                <label for="email"><b>Email</b></label>
+              </div>
+              <div class="col-12">
+                <input type="text" placeholder="Enter Email" name="email" required>
+              </div>
+                <div class="col-12">
+              <label for="psw"><b>Password</b></label>
+                     </div>
+                    <div class="col-12">
+              <input type="password" placeholder="Enter Password" name="psw" required>
+                         </div>
+                            
+                            <div class="col-12">
+              <label for="psw-repeat"><b>Repeat Password</b></label>
+                                 </div>
+                                <div class="col-12">
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                                    </div>
+                <div class="col-12">
+              <label>  
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
+                Remember me </label>
+                </div>
+                    <div class="col-12">
+              <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms and Privacy</a>.</p>
+                        </div>
+                
+              
+                  <div class="col-6">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="btn btn-outline-success">Cancel</button>
+                      </div>
+                  <div class="col-6">
+                <button type="submit" onclick="window.location.href = 'index.html';" class="btn btn-outline-primary">
+                Sign Up
+                </button>
+                  </div>
+              
+            </div>
+          </div>
+        </form>
+      </div>
+    </ul>
+  </div>
+</nav>
+
+    
+		<!-- Side navigation -->
+	<div class="container-fluid"> <!-- Container Start -->
+	<div class="row"> <!-- Row Start -->
+	<div class="sidebar col-sm-12 col-md-4 col-lg-4">
+	  <h2>Categories</h2>
+	  <a href="vacancies.html">All</a>
+	  <a href="vacancy_sub_art.html">Visual Art</a>
+	  <a href="vacancy_sub_film.html">Film and TV</a>
+	  <a class="active" href="vacancy_sub_photo.html">Photography</a>
+	  <a href="vacancy_sub_story.html">Storywriting</a>
+      <a href="vacancy_sub_content.html">Content</a>
+	  <a href="vacancy_sub_production.html">Production</a>
+	  <a href="vacancy_sub_marketing.html">Marketing</a>
+	</div>
+
+	<!-- Page content -->
+		<div class="break col-12"> </div>
+        <div class="break col-12"> </div>
+		
+		
+	<div class="content col-sm-12 col-md-8 col-lg-8">
+<!-- Vacancy 5 -->
+	<div class="vacancy row">
+	  <div class="col-sm-12 col-md-6 col-lg-8">
+		  <h3>Photographer</h3>
+		  <p class="info">Location: Amsterdam</p>
+		  <p class="info">Duration: 10 weeks</p>
+		  <p class="info">Hours a week: 10 hours per week</p>
+	  </div>
+	  <div class="col-sm-12 col-md-6 col-lg-4">
+		<img class="img-fluid testimonialimage" src="./images/vacancie5.jpg" alt="vacancy" height="150" width="300">
+	  </div>
+		
+	 <div class="col-12">
+		  <p>Our company is seeking talented photographers across the country to help us tell the stories of the local business owners we represent online. We take care of all the scheduling so that you can quickly and easily get behind the scenes with small businesses in your area. Our national network of photographers includes everyone from seasonal freelancers looking to fill holes in their schedules to photographers who are newer in their careers and looking to bolster their portfolios. We’ll provide creative style guides, descriptive shot lists, and constructive feedback along the way, and we’ll make the scheduling process smooth for you.</p>
+		 <p class="info"> <strong> Job responsibilities</strong></p>
+		  <ul>
+			<li>Short on-location shoots</li>
+			<li>Bring your own professional gear</li>
+			<li>Visual storytelling of local heroes</li>
+			<li>Professional behaviours towards the clients</li>
+	      </ul>
+	   
+		<div class="card-footer">
+		  <a type="button" class="btn btn-outline-primary" href=".">Apply for the job here</a> <!-- Button -->
+	  </div>
+	  </div>
+	  </div>
+	 
+		
+  </div>	
+  </div>
+  <!-- Row End --> 
+</div>
+<!-- Container End -->
+
+	<div class="break col-12"> </div>
+    <div class="break col-12"> </div>
+	<div class="break col-12"> </div>
+    <div class="break col-12"> </div>
+	<div class="break col-12"> </div>
+    <div class="break col-12"> </div>
+	<div class="break col-12"> </div>
+    <div class="break col-12"> </div>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active"> <a class="nav-link" href="https://www.instagram.com/adme_official/"><img class="social-media" src="./images/instagram.png" alt="Instagram Logo"/></a> </li>
+      <li class="nav-item"> <a class="nav-link" href="https://www.facebook.com/AdMe_official-103980727888814/"><img class="social-media" src="./images/facebook.png" alt="Facebook Logo"/></a> </li>
+    </ul>
+  </div>
+</nav>
+<script src="js/jquery-3.4.1.slim.min.js"></script> 
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
