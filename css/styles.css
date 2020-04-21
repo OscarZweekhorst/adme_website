@@ -335,3 +335,22 @@ h5 + p {
 	border:#4C474A solid;
 }
 
+article {
+	align-self: center;
+	color: black;
+	margin-top: 20px;
+	padding-right: 250px;
+	padding-left: 250px;
+	background-blend-mode: color; 
+}
+
+.expert1, .expert2{
+	font-style: italic;
+	padding-bottom: 5px;
+}
+
+.expert3, .expert4 {
+	font-style: italic;
+	padding-bottom: 7px;
+}
+
