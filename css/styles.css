@@ -393,4 +393,17 @@ background-color: rgba(76, 71, 74, 0.8);
 	padding-bottom: 7px;
 }
 
-
+.aboutustext {
+    margin-right: 5px;
+    margin-left: 5px;
+    max-width: 100%;
+    width: 350px;
+    display: inline-block;
+}
+.webshoptext {
+    margin-right: 5px;
+    margin-left: 5px;
+    max-width: 100%;
+    width: 500px;
+    display: inline-block;
+}
