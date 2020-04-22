@@ -21,13 +21,13 @@
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
-	  <li class="nav-item"> <a class="nav-link" href="vacancies.html">Vacancies</a> </li>
-      <li class="nav-item active"> <a class="nav-link active-link" href="webshop.html">Webshop</a> </li>
+	  <li class="nav-item active"> <a class="nav-link active-link" href="vacancies.html">Vacancies</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="webshop.html">Webshop</a> </li>
       <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
 
         <li class="nav-item"> <a class="nav-link" href="design_justification.html">Design Justification</a> </li>
 
-    <!-- Button to open the modal -->
+   <!-- Button to open the modal -->
       <li class="nav-item signup">
         <button class="nav-link btn btn-outline-primary"  onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
       </li>
@@ -95,43 +95,92 @@
     </ul>
   </div>
 </nav>
-<div class="container-fluid"> <!-- Container Start -->
-  <div class="row"> <!-- Row Start -->
-    <div class="break col-12"> </div>
-    <div class="break col-12"> </div>
+
+    
+		<!-- Side navigation -->
+	<div class="container-fluid"> <!-- Container Start -->
+	<div class="row"> <!-- Row Start -->
+	<div class="sidebar col-sm-12 col-md-4 col-lg-4">
+	  <h2>Categories</h2>
+	  <a href="vacancies.html">All</a>
+	  <a href="vacancy_sub_art.html">Visual Art</a>
+	  <a class="active" href="vacancy_sub_film.html">Film and TV</a>
+	  <a href="vacancy_sub_photo.html">Photography</a>
+	  <a href="vacancy_sub_story.html">Storywriting</a>
+      <a href="vacancy_sub_content.html">Content</a>
+	  <a href="vacancy_sub_production.html">Production</a>
+	  <a href="vacancy_sub_marketing.html">Marketing</a>
+	</div>
+
+	<!-- Page content -->
+		<div class="break col-12"> </div>
+        <div class="break col-12"> </div>
+		
+		
+	<div class="content col-sm-12 col-md-8 col-lg-8">
+	<!-- Vacancy 1 -->
+	<div class="vacancy row">
+		<div class="col-sm-12 col-md-6 col-lg-8">
+			<h3> Manager of Live Entertainment production </h3>
+		  <p class="info">Location: Hilversum</p>
+		  <p class="info">Duration: 6 months</p>
+          <p class="info">Hours a week: 40 hours per week</p>
+        </div>
+	  <div class="col-sm-12 col-md-6 col-lg-4">
+		<img class="img-fluid testimonialimage" src="./images/vacancie1.jpg" alt="vacancy" height="150" width="300">
+	  </div>
+	 <div class="col-12">
+		  <p>The Manager of Live Entertainment Production has the primary responsibilities of leading a team of production professionals toward flawless delivery of all entertainment items for the organization’s event and game presentations. This position works alongside the Event Operations Department, Corporate Partnerships Department, Raiderette Department, and others to execute across a calendar of events. He\she also has the duties of building a staff of part-time employees, working with vendors, and researching and developing innovative ways to tell the stories that matter most to the organization through world-class live entertainment production. From concept to creation, this is a creative position that requires a creative eye for details and delivery.</p>
+		  <p class="info"> <strong> Job responsibilities</strong></p>
+		  <ul>
+			<li>Maintain an organized schedule for talent travel, rehearsals, and special requests</li>
+			<li>Create and communicate schedules/plans for gameday staff, participants and performers</li>
+			<li>Oversee the gameday and event execution of contests and promotions performed during designated periods</li>
+			<li>Accountable for gameday and event set-up and break-down of equipment, inventory, maintenance and upkeep of props and storage areas</li>
+	      </ul>
+	  
+	  
+		<div class="card-footer">
+		  <a type="button" class="btn btn-outline-primary" href=".">Apply for the job here</a> <!-- Button -->
+	  </div>
+	  </div>
+	  </div>
+	  <!-- Vacancy 2 -->
+		<div class="vacancy row">
+		<div class="col-sm-12 col-md-6 col-lg-8">  
+		  <h3>Video Editor and Cinematographer</h3>
+		  <p class="info">Location: Amsterdam</p>
+          <p class="info">Duration: 10 weeks</p>
+		  <p class="info">Hours a week: 32 hours per week</p>
+        </div>	  
+		<div class="col-sm-12 col-md-6 col-lg-4">
+		<img class="img-fluid testimonialimage" src="./images/vacancie2.jpg" alt="vacancy" height="150" width="300">
+		</div>
+	  
 	  <div class="col-12">
-      <header class="header1-text">
-        <h1>Webshop</h1>
-      </header>
-    </div>
-	<div class="text col-sm-12 col-md-6 col-lg-4"> <!-- Event 1 -->
-	  <header class="header2-text"><h2>TV Networking event</h2></header>
-	  <img class="img-fluid testimonialimage" src="./images/tvevent.jpg" alt="image of event"/>
-	  <h5>May 17, 19:00 in Rotterdam</h5>
-	  <p>Nullam egestas ullamcorper leo. Donec consectetur velit sapien, nec porttitor neque venenatis vel. Proin venenatis libero nec pellentesque fermentum. Mauris pulvinar finibus tellus in hendrerit. Maecenas efficitur vehicula risus, non laoreet dolor condimentum eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-	  <a type="button" class="btn btn-outline-primary" href="event_1.html">Buy ticket</a> <!-- Button -->
-	</div>
-	<div class="text col-sm-12 col-md-6 col-lg-4"> <!-- Event 2 -->
-		<header class="header2-text"><h2>Film Networking event</h2></header>
-	  <img class="img-fluid testimonialimage" src="./images/filmevent.jpg" alt="image of event"/>
-	  <h5>May 26, 19:00 in Amsterdam</h5>
-	  <p>Nullam egestas ullamcorper leo. Donec consectetur velit sapien, nec porttitor neque venenatis vel. Proin venenatis libero nec pellentesque fermentum. Mauris pulvinar finibus tellus in hendrerit. Maecenas efficitur vehicula risus, non laoreet dolor condimentum eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-	  <a type="button" class="btn btn-outline-primary" href="event_2.html">Buy ticket</a> <!-- Button -->
-	</div>
-	<div class="text col-sm-12 col-md-12 col-lg-4"> <!-- Event 3 -->
-	  <header class="header2-text"><h2>Visual Art Networking event</h2></header>
-	  <img class="img-fluid testimonialimage" src="./images/artevent.jpg" alt="image of event"/>
-	  <h5>May 30, 19:00 in Utrecht</h5>
-	  <p>Nullam egestas ullamcorper leo. Donec consectetur velit sapien, nec porttitor neque venenatis vel. Proin venenatis libero nec pellentesque fermentum. Mauris pulvinar finibus tellus in hendrerit. Maecenas efficitur vehicula risus, non laoreet dolor condimentum eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-	  <a type="button" class="btn btn-outline-primary" href="event_3.html">Buy ticket</a> <!-- Button -->
-	</div>
-	<div class="break col-12"> </div>  
+		  <p>The Video Editor/Cinematographer will have a passion for filming and video editing, as well as strong leadership and creative abilities. One should be able to take on a project and see it through to completion. Someone who also likes to work with a team in a fast-paced environment. The candidate should have a high level of knowledge and experience with the Adobe Editing Suite, Final Cut X, After Effects, and DSLR Workflow and Operations. Photoshop and Audio Software knowledge is a plus.</p>
+		  <p class="info"> <strong> Job responsibilities</strong></p>
+		  <ul>
+			<li>Responsible for hosting, setting up and performing video shoots onsite and off-site</li>
+			<li>Knowledge of high definition cameras, lighting and audio for video shoots</li>
+			<li>Storyboard creation and ability to carry project through to execution</li>
+			<li>Ability to shoot, edit and produce in a fast-paced culture</li>
+		  </ul>
+		
+		<div class="card-footer">
+		  <a type="button" class="btn btn-outline-primary" href=".">Apply for the job here</a> <!-- Button -->
+		</div>
+	  </div>
+	  </div>
+
+  </div>	
   </div>
   <!-- Row End --> 
 </div>
 <!-- Container End -->
 
-
+	<div class="break col-12"> </div>
+    <div class="break col-12"> </div>
 
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
