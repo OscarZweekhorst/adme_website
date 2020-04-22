@@ -24,10 +24,7 @@
 .weeklyupdate{
 	text-align: center;
     font-family: 'Abel', 'Open Sans', sans-serif;
-    color: #5AB37F;
-    font-size: 24px;
 	background-color: rgba(76, 71, 74, 0.8);
-	color: white;
 	margin-top: 20px;
 	padding: 20px;
 }
@@ -47,6 +44,7 @@ h4 {
 	font-family: 'Abel', 'Open Sans', sans-serif;
 	color: white;
 	margin-top: 10px;
+	font-size: 20px;
 }
 
 h5 {
@@ -55,6 +53,17 @@ h5 {
 	margin: 10px 0 0 0;
 	padding: 10px;
 	background-color: #4C474A;
+}
+
+.new > p {
+	color: white;
+	font-size: 16px;
+}
+
+h5 + p {
+	padding: 10px;
+	border:#4C474A solid;
+	margin-bottom: 0;
 }
 
 h6 {
@@ -69,6 +78,10 @@ h6 {
 ::-moz-selection {
   background: #FFAA36; 
 } 
+
+.signup .nav-link.btn.btn-outline-primary{
+	color: black;
+}
 
 .nav-link {
 	color: #5AB37F;
@@ -100,13 +113,15 @@ nav.navbar-dark {
 }
 
 .btn-outline-primary {
-    color: #5AB37F;
+    ;color: #ffffff;
     border-color: #5AB37F;
+    background-color: #5AB37F;
     font-family: 'Open Sans', sans-serif;
 }
 .btn-outline-secondary {
-    color: #FFAA36;
+    color: #ffffff;
     border-color: #FFAA36;
+    background-color: #FFAA36;
     font-family: 'Open Sans', sans-serif;
 }
 .btn-outline-success {
@@ -115,15 +130,14 @@ nav.navbar-dark {
     font-family: 'Open Sans', sans-serif;
 }
 .btn-outline-primary:hover {
-    color: #ffffff;
+    color: #5AB37F;
+	background-color: white;
     border-color: #5AB37F;
-    background-color: #5AB37F;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif
 }
 .btn-outline-secondary:hover {
-    color: #ffffff;
+    color: #FFAA36;
     border-color: #FFAA36;
-    background-color: #FFAA36;
     font-family: 'Open Sans', sans-serif;
 }
 .btn-outline-success:hover {
@@ -133,6 +147,28 @@ nav.navbar-dark {
     font-family: 'Open Sans', sans-serif;
 }
 
+.new {
+	border: dotted;
+	border-color: #5AB37F;
+	padding-bottom: 20px;
+	margin: -2px;
+	border-radius: 15px;
+}
+
+.welcome {
+	padding: 0 100px;
+}
+
+.header1 {
+	background-color: white;
+}
+
+.border1 {
+	padding: 10px;
+	border:#4C474A solid;
+	margin-top: 0;
+	border-top: none;
+}
 
 /*--------------------------*/
 /* Sign up form */
@@ -337,23 +373,11 @@ background-color: rgba(76, 71, 74, 0.8);
    padding: 50px;
 }
 
-/*--------------------------*/
-/* Webshop */
-/*--------------------------*/
-/* text */
-h5 + p {
-	padding: 10px;
-	border:#4C474A solid;
-}
 
-article {
-	align-self: center;
-	color: black;
-	margin-top: 20px;
-	padding-right: 250px;
-	padding-left: 250px;
-	background-blend-mode: color; 
-}
+/*--------------------------*/
+/* About */
+/*--------------------------*/
+/* roles */
 
 .expert1, .expert2{
 	font-style: italic;
@@ -364,4 +388,5 @@ article {
 	font-style: italic;
 	padding-bottom: 7px;
 }
+
 
