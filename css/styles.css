@@ -29,6 +29,15 @@
 	padding: 20px;
 }
 
+.eventinfo{ 
+color: #ffaa36;
+
+}
+
+.upcomingtext{
+	color: aliceblue;
+}
+
 .header3-text {
     text-align: center;
     font-family: 'Abel', 'Open Sans', sans-serif;
@@ -147,13 +156,7 @@ nav.navbar-dark {
     font-family: 'Open Sans', sans-serif;
 }
 
-.new {
-	border: dotted;
-	border-color: #5AB37F;
-	padding-bottom: 20px;
-	margin: -2px;
-	border-radius: 15px;
-}
+
 
 .welcome {
 	padding: 0 100px;
