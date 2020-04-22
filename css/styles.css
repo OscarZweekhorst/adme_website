@@ -14,11 +14,22 @@
     color: #4C474A;
     font-size: 32px;
 }
-.header2-text {
-    text-align: center;
+.header2-text { 
+	text-align: center;
     font-family: 'Abel', 'Open Sans', sans-serif;
-    color: #4C474A;
+    color: #5AB37F;
     font-size: 24px;
+	
+}
+.weeklyupdate{
+	text-align: center;
+    font-family: 'Abel', 'Open Sans', sans-serif;
+    color: #5AB37F;
+    font-size: 24px;
+	background-color: rgba(76, 71, 74, 0.8);
+	color: white;
+	margin-top: 20px;
+	padding: 20px;
 }
 
 .header3-text {
@@ -48,7 +59,7 @@ h5 {
 
 h6 {
 	font-family: 'Abel', 'Open Sans', sans-serif;
-	 color: #4C474A;
+	 color: #ffaa36;
 	margin-top: 10px;
 }
 
