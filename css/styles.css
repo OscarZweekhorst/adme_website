@@ -393,6 +393,11 @@ background-color: rgba(76, 71, 74, 0.8);
 	padding-bottom: 7px;
 }
 
+.textabout {
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
 .aboutustext {
     margin-right: 5px;
     margin-left: 5px;
