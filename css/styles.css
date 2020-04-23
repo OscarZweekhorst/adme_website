@@ -106,8 +106,9 @@ h6 {
 	color: #5AB37F;
 }
 .carouselimage {
-	max-width: 100%;
-	max-height: auto;
+
+	height: 600px;
+
 }
 
 .testimonialimage {
@@ -400,6 +401,7 @@ background-color: rgba(76, 71, 74, 0.8);
 	border-top: none;
 }
 
+
 .text-capitalize {
 	margin-bottom: 20px;
 }
@@ -419,6 +421,7 @@ background-color: rgba(76, 71, 74, 0.8);
 	padding-left: 70px;
 	padding-right: 70px;
 	margin-bottom: 40px;
+
 }
 
 .aboutustext {
