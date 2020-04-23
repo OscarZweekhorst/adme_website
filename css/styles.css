@@ -49,6 +49,11 @@ body { /* Body Colour */
 	background-color: #FFDF9F;
 }
 
+h3 { 
+color: #5AB37F;
+text-underline-position: auto;
+}
+
 h4 { 
 	font-family: 'Abel', 'Open Sans', sans-serif;
 	color: white;
@@ -64,10 +69,13 @@ h5 {
 	background-color: #4C474A;
 }
 
+.new { 
+ 	padding-bottom: 20px;
+}
+
 .new > p {
 	color: white;
 	font-size: 16px;
-	
 
 }
 
@@ -98,7 +106,8 @@ h6 {
 	color: #5AB37F;
 }
 .carouselimage {
-    height: 600px;
+	max-width: 100%;
+	max-height: auto;
 }
 
 .testimonialimage {
@@ -326,10 +335,6 @@ div.content {
 	margin-top: 20px;
 	padding: 20px;
 }
-h3{ 
-color: #5AB37F;
-text-underline-position: auto;
-}
 
 .info{ 
 color:#FFAA36 }
@@ -383,14 +388,21 @@ background-color: rgba(76, 71, 74, 0.8);
 /*--------------------------*/
 /* roles */
 
-.expert1, .expert2{
+.expert1 {
 	font-style: italic;
 	padding-bottom: 5px;
 }
 
-.expert3, .expert4 {
-	font-style: italic;
-	padding-bottom: 7px;
+.expert1 + p {
+	padding: 10px;
+	border:#4C474A solid;
+	margin-bottom: 0;
+	border-top: none;
+}
+
+.textabout {
+	padding-left: 70px;
+	padding-right: 70px;
 }
 
 .aboutustext {
