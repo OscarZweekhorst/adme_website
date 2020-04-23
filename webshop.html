@@ -10,10 +10,9 @@
 <!-- My styles -->
 <link rel="stylesheet" href="css/styles.css">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet"> 
-    
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 <title>@me</title>
-    <link rel="icon" href="./images/Adme_icon.ico">
+<link rel="icon" href="./images/Adme_icon.ico">
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"> <a class="navbar-brand" href="index.html"><img class="class" src="./images/adme_logo.png" alt="Logo" height="50px"/></a>
@@ -21,13 +20,12 @@
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
-	  <li class="nav-item"> <a class="nav-link" href="vacancies.html">Vacancies</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="vacancies.html">Vacancies</a> </li>
       <li class="nav-item active"> <a class="nav-link active-link" href="webshop.html">Webshop</a> </li>
       <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
-
-        <li class="nav-item"> <a class="nav-link" href="design_justification.html">Design Justification</a> </li>
-
-    <!-- Button to open the modal -->
+      <li class="nav-item"> <a class="nav-link" href="design_justification.html">Design Justification</a> </li>
+      
+      <!-- Button to open the modal -->
       <li class="nav-item signup">
         <button class="nav-link btn btn-outline-primary"  onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
       </li>
@@ -56,38 +54,32 @@
               <div class="col-12">
                 <input type="text" placeholder="Enter Email" name="email" required>
               </div>
-                <div class="col-12">
-              <label for="psw"><b>Password</b></label>
-                     </div>
-                    <div class="col-12">
-              <input type="password" placeholder="Enter Password" name="psw" required>
-                         </div>
-                            
-                            <div class="col-12">
-              <label for="psw-repeat"><b>Repeat Password</b></label>
-                                 </div>
-                                <div class="col-12">
-              <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-                                    </div>
-                <div class="col-12">
-              <label>  
-                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
-                Remember me </label>
-                </div>
-                    <div class="col-12">
-              <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms and Privacy</a>.</p>
-                        </div>
-                
-              
-                  <div class="col-6">
+              <div class="col-12">
+                <label for="psw"><b>Password</b></label>
+              </div>
+              <div class="col-12">
+                <input type="password" placeholder="Enter Password" name="psw" required>
+              </div>
+              <div class="col-12">
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+              </div>
+              <div class="col-12">
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+              </div>
+              <div class="col-12">
+                <label>
+                  <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
+                  Remember me </label>
+              </div>
+              <div class="col-12">
+                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms and Privacy</a>.</p>
+              </div>
+              <div class="col-6">
                 <button type="button" onclick="document.getElementById('id01').style.display='none'" class="btn btn-outline-success">Cancel</button>
-                      </div>
-                  <div class="col-6">
-                <button type="submit" onclick="window.location.href = 'index.html';" class="btn btn-outline-primary">
-                Sign Up
-                </button>
-                  </div>
-              
+              </div>
+              <div class="col-6">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="btn btn-outline-primary"> Sign Up </button>
+              </div>
             </div>
           </div>
         </form>
@@ -99,51 +91,55 @@
   <div class="row"> <!-- Row Start -->
     <div class="break col-12"> </div>
     <div class="break col-12"> </div>
-	  <div class="col-12">
+    <div class="col-12">
       <header class="header1-text">
         <h1>Webshop</h1>
       </header>
     </div>
-	<div class="text col-sm-12 col-md-6 col-lg-4"> <!-- Event 1 -->
-	  <header class="header2-text"><h2>TV Networking event</h2></header>
-	  <img class="img-fluid testimonialimage" src="./images/tvevent.jpg" alt="image of event"/>
-        <article class="webshoptext">
-	  <h5>May 17, 19:00 in Rotterdam</h5>
-	  <p>Nullam egestas ullamcorper leo. Donec consectetur velit sapien, nec porttitor neque venenatis vel. Proin venenatis libero nec pellentesque fermentum. Mauris pulvinar finibus tellus in hendrerit. Maecenas efficitur vehicula risus, non laoreet dolor condimentum eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-	  <div class="border1">
-	  <a type="button" class="btn btn-outline-primary" href="event_1.html">Buy ticket</a> <!-- Button -->
-	  </div>
-        </article>
-	</div>
-	<div class="text col-sm-12 col-md-6 col-lg-4"> <!-- Event 2 -->
-		<header class="header2-text"><h2>Film Networking event</h2></header>
-	  <img class="img-fluid testimonialimage" src="./images/filmevent.jpg" alt="image of event"/>
-        <article class="webshoptext">
-	  <h5>May 26, 19:00 in Amsterdam</h5>
-	  <p>Nullam egestas ullamcorper leo. Donec consectetur velit sapien, nec porttitor neque venenatis vel. Proin venenatis libero nec pellentesque fermentum. Mauris pulvinar finibus tellus in hendrerit. Maecenas efficitur vehicula risus, non laoreet dolor condimentum eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-	  <div class="border1">
-	  <a type="button" class="btn btn-outline-primary" href="event_2.html">Buy ticket</a> <!-- Button -->
-	  </div>
-        </article>
-	</div>
-	<div class="text col-sm-12 col-md-12 col-lg-4"> <!-- Event 3 -->
-	  <header class="header2-text"><h2>Visual Art Networking event</h2></header>
-	  <img class="img-fluid testimonialimage" src="./images/artevent.jpg" alt="image of event"/>
-        <article class="webshoptext">
-	  <h5>May 30, 19:00 in Utrecht</h5>
-	  <p>Nullam egestas ullamcorper leo. Donec consectetur velit sapien, nec porttitor neque venenatis vel. Proin venenatis libero nec pellentesque fermentum. Mauris pulvinar finibus tellus in hendrerit. Maecenas efficitur vehicula risus, non laoreet dolor condimentum eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-	  <div class="border1">
-	  <a type="button" class="btn btn-outline-primary" href="event_3.html">Buy ticket</a> <!-- Button -->
-	  </div>
-        </article>
-	</div>
-	<div class="break col-12"> </div>  
+    <div class="text col-sm-12 col-md-6 col-lg-4"> <!-- Event 1 -->
+      <header class="header2-text">
+        <h2>TV Networking event</h2>
+      </header>
+      <img class="img-fluid testimonialimage" src="./images/tvevent.jpg" alt="image of event"/>
+      <article class="webshoptext">
+        <h5>TV Networking event<br />
+          May 17, 19:00 in Rotterdam</h5>
+        <p>Nullam egestas ullamcorper leo. Donec consectetur velit sapien, nec porttitor neque venenatis vel. Proin venenatis libero nec pellentesque fermentum. Mauris pulvinar finibus tellus in hendrerit. Maecenas efficitur vehicula risus, non laoreet dolor condimentum eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="border1"> <a type="button" class="btn btn-outline-primary" href="event_1.html">Buy ticket</a> <!-- Button --> 
+        </div>
+      </article>
+    </div>
+    <div class="text col-sm-12 col-md-6 col-lg-4"> <!-- Event 2 -->
+      <header class="header2-text">
+        <h2>Film Networking event</h2>
+      </header>
+      <img class="img-fluid testimonialimage" src="./images/filmevent.jpg" alt="image of event"/>
+      <article class="webshoptext">
+        <h5>Film Networking event<br />
+          May 26, 19:00 in Amsterdam</h5>
+        <p>Nullam egestas ullamcorper leo. Donec consectetur velit sapien, nec porttitor neque venenatis vel. Proin venenatis libero nec pellentesque fermentum. Mauris pulvinar finibus tellus in hendrerit. Maecenas efficitur vehicula risus, non laoreet dolor condimentum eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="border1"> <a type="button" class="btn btn-outline-primary" href="event_2.html">Buy ticket</a> <!-- Button --> 
+        </div>
+      </article>
+    </div>
+    <div class="text col-sm-12 col-md-12 col-lg-4"> <!-- Event 3 -->
+      <header class="header2-text">
+        <h2>Visual Art Networking event</h2>
+      </header>
+      <img class="img-fluid testimonialimage" src="./images/artevent.jpg" alt="image of event"/>
+      <article class="webshoptext">
+        <h5>Visual Art Networking event<br />
+          May 30, 19:00 in Utrecht </h5>
+        <p>Nullam egestas ullamcorper leo. Donec consectetur velit sapien, nec porttitor neque venenatis vel. Proin venenatis libero nec pellentesque fermentum. Mauris pulvinar finibus tellus in hendrerit. Maecenas efficitur vehicula risus, non laoreet dolor condimentum eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="border1"> <a type="button" class="btn btn-outline-primary" href="event_3.html">Buy ticket</a> <!-- Button --> 
+        </div>
+      </article>
+    </div>
+    <div class="break col-12"> </div>
   </div>
   <!-- Row End --> 
 </div>
 <!-- Container End -->
-
-
 
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
