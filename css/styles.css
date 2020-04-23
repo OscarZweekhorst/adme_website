@@ -64,10 +64,13 @@ h5 {
 	background-color: #4C474A;
 }
 
+.new { 
+ 	padding-bottom: 20px;
+}
+
 .new > p {
 	color: white;
 	font-size: 16px;
-	
 
 }
 
