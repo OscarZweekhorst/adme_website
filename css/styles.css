@@ -396,9 +396,25 @@ background-color: rgba(76, 71, 74, 0.8);
 	padding-bottom: 7px;
 }
 
+.text-capitalize {
+	margin-bottom: 20px;
+}
+
 .textabout {
 	padding-left: 70px;
 	padding-right: 70px;
+	
+}
+
+.textabout1 {
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.textabout2 {
+	padding-left: 70px;
+	padding-right: 70px;
+	margin-bottom: 40px;
 }
 
 .aboutustext {
