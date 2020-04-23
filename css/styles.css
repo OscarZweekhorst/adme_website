@@ -127,7 +127,9 @@ h6 {
 .carouselimage {
 
 	height: 600px;
-
+}
+.homecarousel {
+    margin-left: 10px;
 }
 
 .testimonialimage {
@@ -507,4 +509,13 @@ background-color: rgba(76, 71, 74, 0.8);
 	border: solid;
 	border-color: #FFAA36;
 	padding: 50px 0;
+}
+
+.list {
+	text-align: center;
+	padding: 20px 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	background-color: #5AB37F;
+	margin: 10px 0 50px 0;
 }
