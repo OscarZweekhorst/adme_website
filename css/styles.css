@@ -127,7 +127,9 @@ h6 {
 .carouselimage {
 
 	height: 600px;
-
+}
+.homecarousel {
+    margin-left: 10px;
 }
 
 .testimonialimage {
