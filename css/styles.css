@@ -25,7 +25,7 @@
 	text-align: center;
     font-family: 'Abel', 'Open Sans', sans-serif;
 	background-color: rgba(76, 71, 74, 0.8);
-	margin-top: -40px;
+	margin-top: 0px;
 	padding: 20px;
 }
 
@@ -393,4 +393,17 @@ background-color: rgba(76, 71, 74, 0.8);
 	padding-bottom: 7px;
 }
 
-
+.aboutustext {
+    margin-right: 5px;
+    margin-left: 5px;
+    max-width: 100%;
+    width: 350px;
+    display: inline-block;
+}
+.webshoptext {
+    margin-right: 5px;
+    margin-left: 5px;
+    max-width: 100%;
+    width: 500px;
+    display: inline-block;
+}
